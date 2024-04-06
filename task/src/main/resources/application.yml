@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/test
+    username: postgres
+    password: 7gex8y
+  sql:
+    init:
+      continue-on-error: false
+      mode: always
+
